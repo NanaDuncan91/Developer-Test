@@ -10,6 +10,8 @@ Make this work (repeat 3 times the contents of an array):
 repeat([1,2,3]) //[1,2,3,1,2,3,1,2,3]
 ```
 Your solution:
+"1,2,3," + "1,2,3," + "1,2,3"
+"1,2,3,1,2,3,1,2,3"
 
 ###### if we type in our console your function and repeat([1,2,3]) then the result should be [1,2,3,1,2,3,1,2,3] 
 
@@ -19,6 +21,16 @@ Make this work (no vowels, lowercase except the first letter):
 reformat("liMeSHArp DeveLoper TEST") //Lmshrp dvlpr tst
 ```
 Your solution:
+var string = "liMeSHArp DeveLoper TEST";
+undefined
+string.toUpperCase()
+"LIMESHARP DEVELOPER TEST"
+string.toLowerCase()
+"limesharp developer test"
+string.replace(/[aeiou]/ig,'')
+"lMSHrp DvLpr TST"
+
+Although I was unable to find a solution for Task 2, I thought I would include how far I got.
 
 ###### if we type in our console your function and reformat("liMeSHArp DeveLoper TEST") then the result should be Lmshrp dvlpr tst
 
